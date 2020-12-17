@@ -8,6 +8,51 @@ body {
   font-family: 'Fira Sans', sans-serif;
 }
 
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem);
+  }
+  80% {
+    transform: translate(1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem);
+  }
+  80% {
+    transform: translate(-1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes shadow {
+  10% {
+    filter: drop-shadow(-0.2em -0.2em 0.05em #c7c100);
+  }
+  30% {
+    filter: drop-shadow(-0.1em 0em 0.05em #c7c100);
+  }
+  60% {
+    filter: drop-shadow(-0.5em 0em 0.05em #c7c100);
+  }
+  90% {
+    filter: drop-shadow(-0.01em 0em 0.05em #c7c100);
+  }
+  100% {
+    color: black;
+  }
+}
+
 .App {
   text-align: center;
 }
@@ -26,14 +71,24 @@ body {
 
 .heading {
   color: #fff;
-  font-size: 60px;
+  font-size: 40px;
   margin-bottom: 80px;
+  font-family: 'Griffy', cursive;
+  text-transform: uppercase;
+  font-weight: bolder;
+  animation-name: shadow;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  letter-spacing: 0.2em;
 }
 
 .skills {
   color: #fff;
   font-size: 23px;
   margin-bottom: 50px;
+  animation-name: moveInLeft;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
 }
 
 .findoutmore {
@@ -45,26 +100,35 @@ body {
   border-radius: 10px;
   cursor: pointer;
   margin: 0 auto;
+  animation-name: moveInLeft;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
 }
 
 .social-links {
-  padding-top: 30px;
+  padding-top: 50px;
   text-align: center;
 }
 
 .connect {
   color: #fff;
   font-size: 20px;
+  animation-name: moveInRight;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
 }
 
 .fab {
-  color: blue;
+  color: #fff;
   padding: 20px;
   text-decoration: none;
   margin: 5px;
   border-radius: 50%;
-  border: 2px double blue;
+  border: 2px double lightblue;
   transition: all 0.4s;
+  animation-name: moveInRight;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
 }
 
 .fab:hover {
@@ -73,5 +137,5 @@ body {
   cursor: pointer;
   opacity: 8;
   transform: rotate(360deg);
-  box-shadow: 2px 2px 24px blue;
+  box-shadow: 2px 2px 24px lightblue;
 }
