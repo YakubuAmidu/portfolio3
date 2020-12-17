@@ -9,29 +9,31 @@ body {
 }
 
 .App {
-  background-image: url('../assets/profile.png');
+  text-align: center;
+}
+
+.app-header {
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../assets/profile.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.app-header {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-top: 10%;
-}
-
 .heading {
   color: #fff;
   font-size: 60px;
+  margin-bottom: 80px;
 }
 
 .skills {
   color: #fff;
   font-size: 23px;
+  margin-bottom: 50px;
 }
 
 .findoutmore {
