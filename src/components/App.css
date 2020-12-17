@@ -9,15 +9,19 @@ body {
 }
 
 .App {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   background-image: url('../assets/profile.png');
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.app-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10%;
 }
 
 .heading {
