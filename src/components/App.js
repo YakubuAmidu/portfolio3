@@ -12,11 +12,11 @@ class App extends Component {
         <div className='findoutmore'>Find out more</div>
         <div className='social-links'>
           <p className='connect'>Connect with me</p>
-          <i class='fab fa-github-square'></i>
-          <i class='fab fa-linkedin'></i>
-          <i class='fab fa-twitter-square'></i>
-          <i class='fab fa-facebook-square'></i>
-          <i class='fab fa-facebook-square'></i>
+          <i className='fab fa-github-square'></i>
+          <i className='fab fa-linkedin'></i>
+          <i className='fab fa-twitter-square'></i>
+          <i className='fab fa-facebook-square'></i>
+          <i className='fab fa-facebook-square'></i>
         </div>
       </div>
     );
