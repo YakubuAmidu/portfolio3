@@ -9,7 +9,10 @@ body {
 }
 
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-image: url('../assets/profile.png');
   height: 100vh;
   background-repeat: no-repeat;
@@ -29,7 +32,8 @@ body {
 
 .findoutmore {
   background-color: #fff;
-  width: 170px;
+  padding-left: 10px;
+  padding-right: 10px;
   font-size: 20px;
   text-transform: uppercase;
   border-radius: 10px;
@@ -39,9 +43,29 @@ body {
 
 .social-links {
   padding-top: 30px;
+  text-align: center;
 }
 
 .connect {
   color: #fff;
   font-size: 20px;
+}
+
+.fab {
+  color: blue;
+  padding: 20px;
+  text-decoration: none;
+  margin: 5px;
+  border-radius: 50%;
+  border: 2px double blue;
+  transition: all 0.4s;
+}
+
+.fab:hover {
+  background-color: #fff;
+  border: 2px double #333;
+  cursor: pointer;
+  opacity: 8;
+  transform: rotate(360deg);
+  box-shadow: 2px 2px 24px blue;
 }
