@@ -1,3 +1,4 @@
+import email from '../assets/email.png';
 import github from '../assets/github.png';
 import linkedin from '../assets/linkedin.png';
 import twitter from '../assets/twitter.png';
@@ -7,28 +8,38 @@ import instagram from '../assets/instagram.png';
 const SOCIAL_PROFILES = [
   {
     id: 1,
-    link:
-      'https://github.com/YakubuAmidu/portfolio/blob/master/src/data/socialProfiles.js',
-    image: github,
+    link: 'mailto: yakubu.amidu@yahoo.com',
+    image: email,
   },
   {
     id: 2,
     link:
       'https://github.com/YakubuAmidu/portfolio/blob/master/src/data/socialProfiles.js',
-    image: twitter,
+    image: github,
   },
   {
     id: 3,
     link:
       'https://github.com/YakubuAmidu/portfolio/blob/master/src/data/socialProfiles.js',
-    image: facebook,
+    image: instagram,
   },
   {
     id: 4,
     link:
       'https://github.com/YakubuAmidu/portfolio/blob/master/src/data/socialProfiles.js',
-    image: instagram,
+    image: facebook,
+  },
+  {
+    id: 5,
+    link: 'https://www.linkedin.com/in/yakubu-amidu/',
+    image: linkedin,
+  },
+  {
+    id: 6,
+    link:
+      'https://github.com/YakubuAmidu/portfolio/blob/master/src/data/socialProfiles.js',
+    image: twitter,
   },
 ];
 
-export default PROJECTS;
+export default SOCIAL_PROFILES;
