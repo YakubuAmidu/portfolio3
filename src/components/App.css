@@ -142,7 +142,7 @@ body {
 
 .app-portfolio {
   text-align: center;
-  padding-top: 20px;
+  padding-top: 40px;
 }
 
 .heading-about {
@@ -178,7 +178,8 @@ body {
 
 .fa-file-code {
   font-size: 40px;
-  color: purple;
+  background-color: purple;
+  color: #fff;
   border: 1px solid purple;
   border-radius: 100%;
   padding: 30px;
