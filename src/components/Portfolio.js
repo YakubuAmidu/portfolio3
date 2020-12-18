@@ -16,6 +16,24 @@ class Portfolio extends Component {
           elementum nibh tellus molestie nunc non. Odio aenean sed adipiscing
           diam donec adipiscing tristique risus.
         </p>
+        <div className='header-logos'>
+          <div className='logos'>
+            <i class='fas fa-file-code'></i>
+            <p className='description'>Style beautiful website</p>
+          </div>
+          <div>
+            <i class='fas fa-file-code'></i>
+            <p className='description'>Style beautiful website</p>
+          </div>
+          <div>
+            <i class='fas fa-file-code'></i>
+            <p className='description'>Style beautiful website</p>
+          </div>
+          <div>
+            <i class='fas fa-file-code'></i>
+            <p className='description'>Style beautiful website</p>
+          </div>
+        </div>
       </div>
     );
   }
