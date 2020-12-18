@@ -5,7 +5,7 @@ class Portfolio extends Component {
   render() {
     return (
       <div className='app-portfolio'>
-        <h1 className='heading'>ABOUT ME</h1>
+        <h1 className='heading-about'>ABOUT ME</h1>
         <p className='aboutme-paragraph'>
           Urna molestie at elementum eu facilisis. Ut porttitor leo a diam
           sollicitudin tempor id. Tortor consequat id porta nibh venenatis cras

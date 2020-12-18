@@ -139,3 +139,27 @@ body {
   transform: rotate(360deg);
   box-shadow: 2px 2px 24px lightblue;
 }
+
+.app-portfolio {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.heading-about {
+  color: #777;
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-family: 'Griffy', cursive;
+  text-transform: uppercase;
+  font-weight: bolder;
+  animation-name: shadow;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  letter-spacing: 0.2em;
+}
+
+.aboutme-paragraph {
+  text-align: justify;
+  max-width: 800px;
+  margin: 0 auto;
+}
