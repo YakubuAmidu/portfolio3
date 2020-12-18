@@ -129,8 +129,10 @@ body {
 }
 
 .fab {
+  width: 60px;
+  height: 60px;
   color: #fff;
-  padding: 20px;
+  padding: 10px;
   text-decoration: none;
   margin: 5px;
   border-radius: 50%;
@@ -153,6 +155,8 @@ body {
 .app-portfolio {
   text-align: center;
   padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .heading-about {
@@ -248,7 +252,7 @@ body {
 .heading-contact {
   color: #777;
   font-size: 40px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   font-family: 'Griffy', cursive;
   text-transform: uppercase;
   font-weight: bolder;
@@ -256,4 +260,10 @@ body {
   animation-duration: 5s;
   animation-iteration-count: infinite;
   letter-spacing: 0.2em;
+}
+
+.social-icons {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
 }
