@@ -13,13 +13,8 @@ class Header extends Component {
           <Navbar.Collapse id='responsive-navbar-nav'>
             <Nav className='mr-auto'>
               <Nav.Link href='/portfolio'>PORTFOLIO</Nav.Link>
-              <Nav.Link href='#pricing'>ABOUT</Nav.Link>
-              <Nav.Link href='#pricing'>CONTACT</Nav.Link>
               <NavDropdown title='DROPDOWN' id='collasible-nav-dropdown'>
-                <NavDropdown.Item href='#'>PORTFOLIO</NavDropdown.Item>
-                <NavDropdown.Item href='#'>ABOUT</NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href='#'>CONTACT</NavDropdown.Item>
+                <NavDropdown.Item href='/portfolio'>PORTFOLIO</NavDropdown.Item>
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>

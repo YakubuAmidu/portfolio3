@@ -105,6 +105,15 @@ body {
   animation-timing-function: ease-out;
 }
 
+.find {
+  color: #000;
+}
+
+.find:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
 .social-links {
   padding-top: 50px;
   text-align: center;
@@ -112,6 +121,7 @@ body {
 
 .connect {
   color: #fff;
+  margin-bottom: 30px;
   font-size: 20px;
   animation-name: moveInRight;
   animation-duration: 2s;
