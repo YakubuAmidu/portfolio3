@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import css from '../assets/css.png';
+import profile2 from '../assets/profile2.png';
 import './App.css';
 
 class Portfolio extends Component {
@@ -7,6 +8,7 @@ class Portfolio extends Component {
     return (
       <div className='app-portfolio'>
         <h1 className='heading-about'>ABOUT ME</h1>
+        <img src={profile2} alt='profile2-img' className='profile2' />
         <p className='aboutme-paragraph'>
           Urna molestie at elementum eu facilisis. Ut porttitor leo a diam
           sollicitudin tempor id. Tortor consequat id porta nibh venenatis cras

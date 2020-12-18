@@ -158,6 +158,19 @@ body {
   letter-spacing: 0.2em;
 }
 
+.profile2 {
+  width: 170px;
+  height: 220px;
+  margin-bottom: 50px;
+  margin-top: 40px;
+  border-radius: 30px;
+}
+
+.profile2:hover {
+  box-shadow: 5px 5px 5px 0px;
+  transition: 0.4s ease-out;
+}
+
 .aboutme-paragraph {
   text-align: justify;
   max-width: 800px;
