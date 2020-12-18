@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import css from '../assets/css.png';
 import './App.css';
 
 class Portfolio extends Component {
@@ -45,8 +46,17 @@ class Portfolio extends Component {
         </div>
         <hr />
         <div className='app-projects'>
-          <h1 className='heading-projects'>PROJECTS</h1>
+          <h1 className='heading-projects'>HIGHLIGHTED PROJECTS</h1>
+          <div className='projects'>
+            <img src={css} alt='css-img' className='cssone' />
+            <img src={css} alt='css-img' className='cssone' />
+            <img src={css} alt='css-img' className='cssone' />
+            <img src={css} alt='css-img' className='cssone' />
+            <img src={css} alt='css-img' className='cssone' />
+            <img src={css} alt='css-img' className='cssone' />
+          </div>
         </div>
+        <hr />
       </div>
     );
   }
