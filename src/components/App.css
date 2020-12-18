@@ -208,4 +208,10 @@ body {
 
 .cssone {
   margin: 10px;
+  border-radius: 20px;
+}
+
+.cssone:hover {
+  box-shadow: 5px 5px 5px 0px;
+  transition: 0.7s ease-out;
 }
