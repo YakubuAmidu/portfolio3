@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import SocialProfiles from '../data/SocialProfiles';
 import { Link } from 'react-router-dom';
 import { Button } from 'react-bootstrap';
 import Header from './Header';
@@ -20,12 +21,7 @@ class App extends Component {
             </Link>
           </Button>
           <div className='social-links'>
-            <p className='connect'>Connect with me</p>
-            <i className='fab fa-github-square'></i>
-            <i className='fab fa-linkedin'></i>
-            <i className='fab fa-twitter-square'></i>
-            <i className='fab fa-facebook-square'></i>
-            <i className='fab fa-facebook-square'></i>
+            <SocialProfiles />
           </div>
         </div>
       </div>
