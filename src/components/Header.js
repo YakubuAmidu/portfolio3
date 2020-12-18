@@ -7,7 +7,7 @@ class Header extends Component {
       <div>
         <Navbar collapseOnSelect expand='lg' bg='dark' variant='dark'>
           <Navbar.Brand href='#home'>
-            <i className='fas fa-user-tie'></i>
+            <i class='fas fa-laptop-code'></i>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls='responsive-navbar-nav' />
           <Navbar.Collapse id='responsive-navbar-nav'>
