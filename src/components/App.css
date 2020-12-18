@@ -203,6 +203,14 @@ body {
   padding-bottom: 40px;
 }
 
+.logos {
+  margin: 10px;
+}
+
+.description {
+  width: 200px;
+}
+
 .fa-file-code {
   font-size: 40px;
   background-color: purple;
