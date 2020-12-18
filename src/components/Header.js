@@ -12,7 +12,7 @@ class Header extends Component {
           <Navbar.Toggle aria-controls='responsive-navbar-nav' />
           <Navbar.Collapse id='responsive-navbar-nav'>
             <Nav className='mr-auto'>
-              <Nav.Link href='#features'>PORTFOLIO</Nav.Link>
+              <Nav.Link href='/portfolio'>PORTFOLIO</Nav.Link>
               <Nav.Link href='#pricing'>ABOUT</Nav.Link>
               <Nav.Link href='#pricing'>CONTACT</Nav.Link>
               <NavDropdown title='DROPDOWN' id='collasible-nav-dropdown'>
