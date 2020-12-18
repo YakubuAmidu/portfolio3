@@ -22,25 +22,25 @@ class Portfolio extends Component {
         <hr />
         <div className='header-logos'>
           <div className='logos'>
-            <i class='fas fa-file-code'></i>
+            <i className='fas fa-file-code'></i>
             <p className='description'>
               1. Style beautiful website Style beautiful website
             </p>
           </div>
           <div className='logos'>
-            <i class='fas fa-file-code'></i>
+            <i className='fas fa-file-code'></i>
             <p className='description'>
               1. Style beautiful website Style beautiful website
             </p>
           </div>
           <div className='logos'>
-            <i class='fas fa-file-code'></i>
+            <i className='fas fa-file-code'></i>
             <p className='description'>
               1. Style beautiful website Style beautiful website
             </p>
           </div>
           <div className='logos'>
-            <i class='fas fa-file-code'></i>
+            <i className='fas fa-file-code'></i>
             <p className='description'>
               1. Style beautiful website Style beautiful website
             </p>
@@ -56,13 +56,6 @@ class Portfolio extends Component {
             <img src={css} alt='css-img' className='cssone' />
             <img src={css} alt='css-img' className='cssone' />
             <img src={css} alt='css-img' className='cssone' />
-          </div>
-        </div>
-        <hr />
-        <div className='app-contact'>
-          <h1 className='heading-contact'>CONTACT</h1>
-          <div class='social-icons'>
-            <img src='' alt='img' />
           </div>
         </div>
       </div>
