@@ -176,7 +176,11 @@ body {
   padding-bottom: 40px;
 }
 
-.fas {
+.fa-file-code {
   font-size: 40px;
+  color: purple;
+  border: 1px solid purple;
+  border-radius: 100%;
+  padding: 30px;
   margin-bottom: 20px;
 }
