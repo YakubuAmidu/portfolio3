@@ -7,23 +7,21 @@ const SocialProfile = (props) => {
   return (
     <span>
       <a href={link}>
-        <img src={image} alt='img' />
+        <img src={image} alt='img' className='fab' />
       </a>
     </span>
   );
 };
 
-const SocialProfiles = () => {
-  return (
-    <div className='socialmedia'>
-      <h1 className='contact'>Contact</h1>
-      <div>
-        {SOCIAL_PROFILES.map((SOCIAL_PROFILE) => {
-          <SocialProfile socialProfile={SOCIAL_PROFILES} />;
-        })}
-      </div>
+const SocialProfiles = () => (
+  <div>
+    <h2 className='connect'>Connect with me</h2>
+    <div>
+      {SOCIAL_PROFILES.map((SOCIAL_PROFILE) => (
+        <SocialProfile key={SOCIAL_PROFILE.id} socialProfile={SOCIAL_PROFILE} />
+      ))}
     </div>
-  );
-};
+  </div>
+);
 
 export default SocialProfiles;
