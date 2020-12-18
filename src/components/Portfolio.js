@@ -57,6 +57,12 @@ class Portfolio extends Component {
           </div>
         </div>
         <hr />
+        <div className='app-contact'>
+          <h1 className='heading-contact'>CONTACT</h1>
+          <div class='social-icons'>
+            <img src='' alt='img' />
+          </div>
+        </div>
       </div>
     );
   }
