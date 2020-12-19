@@ -56,7 +56,15 @@ class Portfolio extends Component {
 
         <div className='header-logos'>
           <Row>
-            <Col sm={12} md={6} lg={3}>
+            <Col sm={12} md={12} lg={4}>
+              <div className='logos'>
+                <i className='fas fa-check-circle'></i>
+                <p className='description'>
+                  1. Style beautiful website Style beautiful website
+                </p>
+              </div>
+            </Col>
+            <Col sm={12} md={12} lg={4}>
               <div className='logos'>
                 <i className='fas fa-file-code'></i>
                 <p className='description'>
@@ -64,25 +72,9 @@ class Portfolio extends Component {
                 </p>
               </div>
             </Col>
-            <Col sm={12} md={6} lg={3}>
+            <Col sm={12} md={12} lg={4}>
               <div className='logos'>
-                <i className='fas fa-file-code'></i>
-                <p className='description'>
-                  1. Style beautiful website Style beautiful website
-                </p>
-              </div>
-            </Col>
-            <Col sm={12} md={6} lg={3}>
-              <div className='logos'>
-                <i className='fas fa-file-code'></i>
-                <p className='description'>
-                  1. Style beautiful website Style beautiful website
-                </p>
-              </div>
-            </Col>
-            <Col sm={12} md={6} lg={3}>
-              <div className='logos'>
-                <i className='fas fa-file-code'></i>
+                <i className='fas fa-brain'></i>
                 <p className='description'>
                   1. Style beautiful website Style beautiful website
                 </p>
