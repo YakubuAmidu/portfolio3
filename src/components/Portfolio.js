@@ -21,6 +21,7 @@ class Portfolio extends Component {
         <img src={profile2} alt='profile2-img' className='profile2' />
         <div className='aboutme-paragraph'>
           <h1 className='hello'>Hello!</h1>
+          <p>I am a reactjs developer</p>
           <Title />
           {this.state.displayBio ? (
             <div className='paragraph-header'>
@@ -30,17 +31,22 @@ class Portfolio extends Component {
                 cras sed felis eget. Ac ut consequat semper viverra nam libero
                 justo. Tristique magna sit amet purus gravida. Arcu felis
                 bibendum ut tristique et. Commodo elit at imperdiet dui accumsan
-                sit amet nulla facilisi. Commodo odio aenean sed adipiscing
-                diam. Eu lobortis elementum nibh tellus molestie nunc non. Odio
-                aenean sed adipiscing diam donec adipiscing tristique risus.
               </p>
-              <Button className='outline-dark' onClick={this.toggleDisplayBio}>
+              <Button
+                className='btn btn-read'
+                variant='outline-dark'
+                onClick={this.toggleDisplayBio}
+              >
                 read less
               </Button>
             </div>
           ) : (
             <div>
-              <Button className='outline-dark' onClick={this.toggleDisplayBio}>
+              <Button
+                className='btn btn-read'
+                variant='outline-dark'
+                onClick={this.toggleDisplayBio}
+              >
                 read more
               </Button>
             </div>
