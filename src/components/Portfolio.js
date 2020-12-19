@@ -23,23 +23,31 @@ class Portfolio extends Component {
           <h1 className='hello'>Hello!</h1>
           <Title />
           {this.state.displayBio ? (
-            <p className='paragraph'>
-              Urna molestie at elementum eu facilisis. Ut porttitor leo a diam
-              sollicitudin tempor id. Tortor consequat id porta nibh venenatis
-              cras sed felis eget. Ac ut consequat semper viverra nam libero
-              justo. Tristique magna sit amet purus gravida. Arcu felis bibendum
-              ut tristique et. Commodo elit at imperdiet dui accumsan sit amet
-              nulla facilisi. Commodo odio aenean sed adipiscing diam. Eu
-              lobortis elementum nibh tellus molestie nunc non. Odio aenean sed
-              adipiscing diam donec adipiscing tristique risus.
-            </p>
+            <div className='paragraph-header'>
+              <p className='paragraph'>
+                Urna molestie at elementum eu facilisis. Ut porttitor leo a diam
+                sollicitudin tempor id. Tortor consequat id porta nibh venenatis
+                cras sed felis eget. Ac ut consequat semper viverra nam libero
+                justo. Tristique magna sit amet purus gravida. Arcu felis
+                bibendum ut tristique et. Commodo elit at imperdiet dui accumsan
+                sit amet nulla facilisi. Commodo odio aenean sed adipiscing
+                diam. Eu lobortis elementum nibh tellus molestie nunc non. Odio
+                aenean sed adipiscing diam donec adipiscing tristique risus.
+              </p>
+              <Button className='outline-dark' onClick={this.toggleDisplayBio}>
+                read less
+              </Button>
+            </div>
           ) : (
             <div>
-              <Button className='outline-dark'>show more</Button>
+              <Button className='outline-dark' onClick={this.toggleDisplayBio}>
+                read more
+              </Button>
             </div>
           )}
         </div>
         <hr />
+
         <div className='header-logos'>
           <Row>
             <Col sm={12} md={6} lg={3}>
