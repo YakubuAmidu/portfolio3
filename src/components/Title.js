@@ -17,7 +17,7 @@ class Title extends Component {
     this.animateTitles();
   }
 
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     clearInterval(this.titleInterval);
     clearTimeout(this.timeout);
   }
