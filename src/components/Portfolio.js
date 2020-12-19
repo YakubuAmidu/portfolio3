@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import css from '../assets/css.png';
 import profile2 from '../assets/profile2.png';
-import { Row, Col } from 'react-bootstrap';
+import Title from './Title';
+import { Row, Col, Button } from 'react-bootstrap';
 import './App.css';
 
 class Portfolio extends Component {
@@ -18,16 +19,26 @@ class Portfolio extends Component {
       <div className='app-portfolio'>
         <h1 className='heading-about'>ABOUT ME</h1>
         <img src={profile2} alt='profile2-img' className='profile2' />
-        <p className='aboutme-paragraph'>
-          Urna molestie at elementum eu facilisis. Ut porttitor leo a diam
-          sollicitudin tempor id. Tortor consequat id porta nibh venenatis cras
-          sed felis eget. Ac ut consequat semper viverra nam libero justo.
-          Tristique magna sit amet purus gravida. Arcu felis bibendum ut
-          tristique et. Commodo elit at imperdiet dui accumsan sit amet nulla
-          facilisi. Commodo odio aenean sed adipiscing diam. Eu lobortis
-          elementum nibh tellus molestie nunc non. Odio aenean sed adipiscing
-          diam donec adipiscing tristique risus.
-        </p>
+        <div className='aboutme-paragraph'>
+          <h1 className='hello'>Hello!</h1>
+          <Title />
+          {this.state.displayBio ? (
+            <p className='paragraph'>
+              Urna molestie at elementum eu facilisis. Ut porttitor leo a diam
+              sollicitudin tempor id. Tortor consequat id porta nibh venenatis
+              cras sed felis eget. Ac ut consequat semper viverra nam libero
+              justo. Tristique magna sit amet purus gravida. Arcu felis bibendum
+              ut tristique et. Commodo elit at imperdiet dui accumsan sit amet
+              nulla facilisi. Commodo odio aenean sed adipiscing diam. Eu
+              lobortis elementum nibh tellus molestie nunc non. Odio aenean sed
+              adipiscing diam donec adipiscing tristique risus.
+            </p>
+          ) : (
+            <div>
+              <Button className='outline-dark'>show more</Button>
+            </div>
+          )}
+        </div>
         <hr />
         <div className='header-logos'>
           <Row>

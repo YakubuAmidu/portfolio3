@@ -192,6 +192,10 @@ body {
   padding-bottom: 40px;
 }
 
+.hello {
+  text-align: center;
+}
+
 .header-logos {
   display: flex;
   flex-direction: row;
