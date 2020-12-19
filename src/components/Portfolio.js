@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import css from '../assets/css.png';
 import profile2 from '../assets/profile2.png';
+import { Row, Col } from 'react-bootstrap';
 import './App.css';
 
 class Portfolio extends Component {
@@ -21,34 +22,44 @@ class Portfolio extends Component {
         </p>
         <hr />
         <div className='header-logos'>
-          <div className='logos'>
-            <i className='fas fa-file-code'></i>
-            <p className='description'>
-              1. Style beautiful website Style beautiful website
-            </p>
-          </div>
-          <div className='logos'>
-            <i className='fas fa-file-code'></i>
-            <p className='description'>
-              1. Style beautiful website Style beautiful website
-            </p>
-          </div>
-          <div className='logos'>
-            <i className='fas fa-file-code'></i>
-            <p className='description'>
-              1. Style beautiful website Style beautiful website
-            </p>
-          </div>
-          <div className='logos'>
-            <i className='fas fa-file-code'></i>
-            <p className='description'>
-              1. Style beautiful website Style beautiful website
-            </p>
-          </div>
+          <Row>
+            <Col sm={12} md={6}>
+              <div className='logos'>
+                <i className='fas fa-file-code'></i>
+                <p className='description'>
+                  1. Style beautiful website Style beautiful website
+                </p>
+              </div>
+            </Col>
+            <Col sm={12} md={6}>
+              <div className='logos'>
+                <i className='fas fa-file-code'></i>
+                <p className='description'>
+                  1. Style beautiful website Style beautiful website
+                </p>
+              </div>
+            </Col>
+            <Col sm={12} md={6}>
+              <div className='logos'>
+                <i className='fas fa-file-code'></i>
+                <p className='description'>
+                  1. Style beautiful website Style beautiful website
+                </p>
+              </div>
+            </Col>
+            <Col sm={12} md={6}>
+              <div className='logos'>
+                <i className='fas fa-file-code'></i>
+                <p className='description'>
+                  1. Style beautiful website Style beautiful website
+                </p>
+              </div>
+            </Col>
+          </Row>
         </div>
         <hr />
         <div className='app-projects'>
-          <h1 className='heading-projects'>HIGHLIGHTED PROJECTS</h1>
+          <h1 className='heading-projects'>PROJECTS</h1>
           <div className='projects'>
             <img src={css} alt='css-img' className='cssone' />
             <img src={css} alt='css-img' className='cssone' />
