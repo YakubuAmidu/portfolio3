@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './App.css';
 
 const TITLES = [
   'I am a software engineer',
@@ -28,7 +29,7 @@ class Title extends Component {
       this.setState({ titleIndex, fadeIn: true });
 
       this.timeout = setTimeout(() => this.setState({ fadeIn: false }), 2000);
-    }, 2000);
+    }, 4000);
   };
 
   render() {
