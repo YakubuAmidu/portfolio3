@@ -5,6 +5,14 @@ import { Row, Col } from 'react-bootstrap';
 import './App.css';
 
 class Portfolio extends Component {
+  state = {
+    displayBio: false,
+  };
+
+  toggleDisplayBio = () => {
+    this.setState({ displayBio: !this.state.displayBio });
+  };
+
   render() {
     return (
       <div className='app-portfolio'>
