@@ -13,20 +13,17 @@ const SOCIAL_PROFILES = [
   },
   {
     id: 2,
-    link:
-      'https://github.com/YakubuAmidu/portfolio/blob/master/src/data/socialProfiles.js',
+    link: 'https://www.linkedin.com/in/yakubu-amidu/',
     image: github,
   },
   {
     id: 3,
-    link:
-      'https://github.com/YakubuAmidu/portfolio/blob/master/src/data/socialProfiles.js',
+    link: 'https://www.linkedin.com/in/yakubu-amidu/',
     image: instagram,
   },
   {
     id: 4,
-    link:
-      'https://github.com/YakubuAmidu/portfolio/blob/master/src/data/socialProfiles.js',
+    link: 'https://www.linkedin.com/in/yakubu-amidu/',
     image: facebook,
   },
   {
@@ -36,8 +33,7 @@ const SOCIAL_PROFILES = [
   },
   {
     id: 6,
-    link:
-      'https://github.com/YakubuAmidu/portfolio/blob/master/src/data/socialProfiles.js',
+    link: 'https://www.linkedin.com/in/yakubu-amidu/',
     image: twitter,
   },
 ];
