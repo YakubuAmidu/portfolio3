@@ -205,9 +205,11 @@ body {
 
 .logos {
   margin: 10px;
+  margin-bottom: 20px;
 }
 
 .description {
+  margin: 0 auto;
   width: 200px;
 }
 
