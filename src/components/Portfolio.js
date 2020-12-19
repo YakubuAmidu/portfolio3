@@ -23,7 +23,7 @@ class Portfolio extends Component {
         <hr />
         <div className='header-logos'>
           <Row>
-            <Col sm={12} md={6}>
+            <Col sm={12} md={6} lg={3}>
               <div className='logos'>
                 <i className='fas fa-file-code'></i>
                 <p className='description'>
@@ -31,7 +31,7 @@ class Portfolio extends Component {
                 </p>
               </div>
             </Col>
-            <Col sm={12} md={6}>
+            <Col sm={12} md={6} lg={3}>
               <div className='logos'>
                 <i className='fas fa-file-code'></i>
                 <p className='description'>
@@ -39,7 +39,7 @@ class Portfolio extends Component {
                 </p>
               </div>
             </Col>
-            <Col sm={12} md={6}>
+            <Col sm={12} md={6} lg={3}>
               <div className='logos'>
                 <i className='fas fa-file-code'></i>
                 <p className='description'>
@@ -47,7 +47,7 @@ class Portfolio extends Component {
                 </p>
               </div>
             </Col>
-            <Col sm={12} md={6}>
+            <Col sm={12} md={6} lg={3}>
               <div className='logos'>
                 <i className='fas fa-file-code'></i>
                 <p className='description'>
